@@ -134,15 +134,22 @@ nav ul li a:hover {
     }
 #locall{ 
   font-size: 1.8rem;
-  padding: 20px;
+  padding: 40px;
+
+}
+.location-time{
+ 
+  margin-bottom: 150px;
 }
 @media only screen and (max-width: 600px) {
   #ayoub {
     margin-top: 10%;
 }
 #locall{ 
-  font-size: 1.2rem;
+  margin-top: 15px;
+  font-size: 1.1rem;
   padding: 0px;
+
 
 }
 
@@ -155,17 +162,20 @@ margin-right: 25px;
 
  /*COUNT DOWN */
 #countdwn{ 
-  background-color: #00142e;
- padding-top: 50px;
+ background-color: #00142e;
+
+ 
 }
  .cnt {
-  padding: 8%;
+
   /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #d30b0b 100%, #131a3a 100%);   */
   color: white;
   text-align: center;
+ 
 }
 
 .cnt > h1 {
+
   font-weight:bold;
   text-align: center;
 }
@@ -174,7 +184,8 @@ li {
   display: inline-block;
   font-size: 2rem;
   list-style-type: none;
- padding: 2.5%;
+
+  padding: 2%;
   text-transform: uppercase;
 }
 
@@ -186,9 +197,13 @@ font-weight: bold;
 
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1000px) {
+  #countdwn{
+    padding-top: 200px;
+  }
   h1 {
     font-size: calc(1.5rem * var(--smaller));
+   
   }
   
   li {
@@ -196,9 +211,13 @@ font-weight: bold;
   }
   
   li p{
+  
     display: block;
     font-weight: bold;
     font-size: 35px;
+  }
+  .cnt{
+    padding-bottom: 5px;
   }
 }
 
@@ -248,12 +267,12 @@ font-weight: bold;
     margin-top: 5%;
     margin-bottom: 20%;
     width: 90%;
-  
+  }
   #omar > h4{   
     margin-top: 15%;
   }
 }
-}
+
 
 
 /* The AGENDA */
@@ -554,7 +573,7 @@ img{
   width: 10.5%;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
   .insta img {
     width: 3%;
   }
