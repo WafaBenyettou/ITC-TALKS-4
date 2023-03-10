@@ -2,7 +2,7 @@
 (function myFunction1(){ 
     const frst = document.getElementById('first');
     frst.addEventListener('mouseover',function(){ 
-        document.getElementById('sppp').src = "images.png";
+        document.getElementById('sppp').src = "../image/images2.png";
         document.getElementById('txt').innerText= "first Speacker's name";
         document.getElementById('textname').innerText= "first Speaker's name";
     });
@@ -12,7 +12,7 @@
 (function myFunction2(){ 
     const scnd = document.getElementById('second');
     scnd.addEventListener('mouseover',function(){ 
-        document.getElementById('sppp').src = "images1.png";
+        document.getElementById('sppp').src = "../image/images1.png";
         document.getElementById('txt').innerText= "Second Speacker's name";
         document.getElementById('textname').innerText= "Second Speaker's name";
     });
@@ -21,9 +21,18 @@
 (function myFunction3(){ 
     const thrd = document.getElementById('third');
     thrd.addEventListener('mouseover',function(){ 
-        document.getElementById('sppp').src = "images2.png";
+        document.getElementById('sppp').src = "../image/images2.png";
         document.getElementById('txt').innerText= "third Speacker's name";
         document.getElementById('textname').innerText= "third Speaker's name";   
+    });
+   
+})();
+(function myFunction4(){ 
+    const thrd = document.getElementById('fourth');
+    thrd.addEventListener('mouseover',function(){ 
+        document.getElementById('sppp').src = "../image/images1.png";
+        document.getElementById('txt').innerText= "fourth Speacker's name";
+        document.getElementById('textname').innerText= "fourth Speaker's name";   
     });
    
 })();

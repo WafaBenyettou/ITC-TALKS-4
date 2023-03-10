@@ -4,21 +4,23 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-  background-image: url("bgbd.png");
+  background-image: url("../image/bgbd.png");
+
  }
 /*nav bar*/
 
 .navbar { 
 
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #d30b0b 100%, #131a3a 100%);   
+
 }
-.navbar ul li a {
-  color: aliceblue;
-  font-size: 1.5rem;
-}
+
 .navbar img{ 
-  width: 17%;
+  padding: 30px;
+  width: 20%;
+ 
 }
+
 
 @media only screen and (min-width: 600px) {
   .navbar{ 
@@ -37,27 +39,19 @@ body {
 }
 
 nav ul li a {
-   
-  text-decoration: none;
-  text-transform: capitalize;
-  transition: 0.6s;
+  color: white;
+  transition: 0.8s;
+  padding: 30px;
+ font-size: 20px;
+ font-weight:bold ;
+
 }
 
 nav ul li a:hover {
-  color: blue;
-}
-.mohamed {
-  color: white;
-  transition: 0.4s;
-  border-radius: 50px;
+  color: rgb(0, 0, 39);
   text-decoration: none;
-  text-transform: capitalize;
-  font-weight: bold;  
 }
-.mohamed:hover {
-  background-color: transparent;
-  /**  border: 2px solid red; **/
-}
+
 
 
 /*MAIN SECTION */
@@ -68,22 +62,22 @@ nav ul li a:hover {
 
 
 .images1 {
-  width: 10%;
+  width: 9%;
 }
 .images2 {
-  width: 10%;
+  width: 9%;
   
 }
 #tww{ 
   width: 80%;
-  margin-left: 13%;
+  margin-left: 15%;
   margin-bottom: 5%;
   margin-top: 5%;
   /*background-image: url("bg.png");*/
 }
 
 .two { 
-  background-image: url("bg.png");
+  background-image: url("../image/bg.png");
   height: 75vh;
 }
 #itcc { 
@@ -93,7 +87,8 @@ nav ul li a:hover {
     font-weight: bold;
     font-size: 2rem;
 }
-#tww h4 { 
+#tww h4{ 
+
   color: white;
 }
 #itcc> p { 
@@ -139,19 +134,29 @@ nav ul li a:hover {
     }
 #locall{ 
   font-size: 1.8rem;
+  padding: 20px;
 }
 @media only screen and (max-width: 600px) {
   #ayoub {
     margin-top: 10%;
 }
 #locall{ 
-  font-size: 1rem;
+  font-size: 1.2rem;
+  padding: 0px;
+
+}
+
+#locall img{ 
+width: 40px;
+margin-right: 25px;
+
 }
 }
 
  /*COUNT DOWN */
 #countdwn{ 
   background-color: #00142e;
+ padding-top: 50px;
 }
  .cnt {
   padding: 8%;
@@ -161,7 +166,7 @@ nav ul li a:hover {
 }
 
 .cnt > h1 {
-  font-weight: normal;
+  font-weight:bold;
   text-align: center;
 }
 
@@ -169,13 +174,14 @@ li {
   display: inline-block;
   font-size: 2rem;
   list-style-type: none;
-  padding: 1em;
+ padding: 2.5%;
   text-transform: uppercase;
 }
 
-li span {
+li p{
   display: block;
-  font-size: 4.5rem;
+font-weight: bold;
+  font-size: 4rem;
 }
 
 
@@ -189,8 +195,10 @@ li span {
     font-size: calc(1.125rem * var(--smaller));
   }
   
-  li span {
-    font-size: calc(3.375rem * var(--smaller));
+  li p{
+    display: block;
+    font-weight: bold;
+    font-size: 35px;
   }
 }
 
@@ -205,7 +213,7 @@ li span {
   color: white;
 }
 #eventee { 
-  background-image: url("event.png");
+  background-image: url("../image/event.png");
 }
 #aboutus { 
   align-items: center;
@@ -214,10 +222,12 @@ li span {
 #omar > p{ 
   font-size: 1rem;
   text-align: justify;
+  
 }
-#omar > h4{ 
+#omar > h1{ 
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 3rem;
+  text-align: center;
 }
 
 @media only screen and (min-width: 600px) {
@@ -238,10 +248,11 @@ li span {
     margin-top: 5%;
     margin-bottom: 20%;
     width: 90%;
-  }
+  
   #omar > h4{   
     margin-top: 15%;
   }
+}
 }
 
 
@@ -252,6 +263,7 @@ li span {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);  */ 
    text-align: center;
     color: black;
+    margin-top: 55px;
 }
 p{
     font-size: .5em;
@@ -261,21 +273,45 @@ img{
     margin-top: 7%;
     margin-bottom: 2%;
 }
+
 .TheAgenda > h1 { 
-    font-size: 2em;
+    color: #00142e;
+    font-size: 3rem;
+    margin-bottom: 4%;
+    font-weight: bold; 
 }
 .row{
     margin-top: 50px;
 }
+
 #spk > h1{ 
     font-size: 1.5em;
+    transition: 0.5s;
+    padding: 2%;
+    
+    
+}
+
+#spk > h1:hover{ 
+  font-size: 2em;
+  color: #d30b0b;
+  text-decoration: line-through;
+  
 }
 #spk2 > h1{ 
     font-size: 1.5em;
+    padding: 2%;
 }
 #spk2 > h3{ 
     font-size: 1em;
     margin-bottom: 5%;
+    padding: 2%;
+}
+
+#spk4 > h3{ 
+  font-size: 1em;
+  margin-bottom: 5%;
+  padding: 2%;
 }
 @media only screen and (min-width: 600px) {
     .TheAgenda{ 
@@ -284,6 +320,7 @@ img{
     img{
         width: 30%;
         margin: 0%;
+        
     }
 
   }
@@ -321,7 +358,7 @@ img{
 
 @media only screen and (min-width: 600px) {
   #sponsoring{ 
-    background-image: url("spns1.png");
+    background-image: url("../image/spns1.png");
    }
 }
 
@@ -340,7 +377,7 @@ img{
 }
 @media only screen and (min-width: 600px) {
   #FAQ {
-    background-image: url("faq.png");
+    background-image: url("../image/faq.png");
   }
 }
 .container {
@@ -350,6 +387,9 @@ img{
 }
 .container > h2 { 
   margin-bottom: 3%;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
 }
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
@@ -442,7 +482,6 @@ img{
 .five {
   /*background-image: url("end.png");*/
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #d30b0b 100%, #131a3a 100%);   
-
   
 }
 
@@ -481,13 +520,15 @@ img{
 .lastt {
       color: aliceblue;
       text-align: center;
+      padding: 2%;
 }
 
 #icns{ 
-  margin-bottom: 2%;
+
   display: inline-block;
   text-align: center;
-  margin-top: 2%;
+
+  width: 100vw;
 
 }
 @media only screen and (max-width: 600px) {
